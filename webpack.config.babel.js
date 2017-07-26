@@ -17,6 +17,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
   },
+  devtool: 'cheap-module-inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
       template: 'app/index.html'
