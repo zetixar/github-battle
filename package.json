@@ -4,7 +4,8 @@
   "description": "Code along Tyler's videos on React",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "build": "NODE_ENV='production' webpack -p"
   },
   "keywords": [
     "react",
